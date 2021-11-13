@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://1000logos.net/wp-content/uploads/2017/11/Panic-at-the-Disco-logo.png"
+            alt="Panic At The Disco Logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#">Features</a></li>
+            <li><a class="nav-link" href="#Music">Music</a></li>
+            <li><a class="nav-link" href="#Albums">Albums</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="hero">
+        <h2>Sign up to be updated to new music, albums.</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>Additional Freebies</h2>
+              <p>There will be additional freebies in every album purchased.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>We make sure to ship your desired albums immediately</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p>
+                Before shipping we test the quality of the product we ship to
+                our customers.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="Music">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/hsknjjIVm6U"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="Albums">
+          <div class="product" id="tenor">
+            <div class="level">Pray For The Wicked</div>
+            <h2>$18</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnVTsoYmAOAT6k_2zMOEpmRJaN08X4pA9lHSk2QRU&usqp=CAE&s"
+              alt=""
+              class="album-photo"
+            />
+            <ol>
+              <li>Sixth studio album.</li>
+              <li>(Fuck a) Silver Lining</li>
+              <li>Say Amen (Saturday Night)</li>
+              <li>Hey Look Ma, I Made It</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Death of a Bachelor</div>
+            <h2>$19</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAyFGrJDUuddULDYCAjUgoJ4ym5i5tkFZI80D6VBo&usqp=CAE&s"
+              alt=""
+              class="album-photo"
+            />
+            <ol>
+              <li>Fifth studio album.</li>
+              <li>Victorious</li>
+              <li>Don'tt Threaten Me with a Good Time</li>
+              <li>Hallelujah</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Too Weird to Live, Too Rare to Die!</div>
+            <h2>$20</h2>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxEV0-lUfshT3bOkVvUCXkCL9m-lbjKQSQe4j_eq8&usqp=CAE&s"
+              alt=""
+              class="album-photo"
+            />
+            <ol>
+              <li>Fourth studio album</li>
+              <li>This is Gospel</li>
+              <li>Miss Jackson</li>
+              <li>Vegas Lights</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2021, Panic at the Disco</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
